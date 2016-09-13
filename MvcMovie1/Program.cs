@@ -17,7 +17,7 @@ namespace MvcMovie1
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
-
+			  
             host.Run();
         }
     }
